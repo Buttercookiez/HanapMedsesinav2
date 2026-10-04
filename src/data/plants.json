@@ -1,0 +1,56 @@
+[
+  {
+    "id": "lagundi",
+    "name": "Lagundi",
+    "scientificName": "Vitex negundo L.",
+    "image": "lagundi.jpg",
+    "family": "Lamiaceae (older references may list Verbenaceae)",
+    "habitat": "Tropical and subtropical scrub, riverbanks, roadsides, and home gardens",
+    "origin": "South and Southeast Asia, including the Philippines"
+  },
+  {
+    "id": "bayabas",
+    "name": "Bayabas",
+    "scientificName": "Psidium guajava L.",
+    "image": "bayabas.jpg",
+    "family": "Myrtaceae",
+    "habitat": "Warm tropical areas, gardens, farms, roadsides, and well-drained soils",
+    "origin": "Tropical America; now widely cultivated in the Philippines and other tropical regions"
+  },
+  {
+    "id": "sambong",
+    "name": "Sambong",
+    "scientificName": "Blumea balsamifera (L.) DC.",
+    "image": "sambong.jpg",
+    "family": "Asteraceae",
+    "habitat": "Open sunny areas, grasslands, roadsides, and disturbed tropical ground",
+    "origin": "South and Southeast Asia, including the Philippines"
+  },
+  {
+    "id": "serpentina",
+    "name": "Serpentina",
+    "scientificName": "Andrographis paniculata (Burm.f.) Nees",
+    "image": "serpentina.jpg",
+    "family": "Acanthaceae",
+    "habitat": "Tropical gardens, cultivated plots, open grassland, and disturbed ground",
+    "origin": "South and Southeast Asia, including the Philippines"
+  },
+  {
+    "id": "kamaria",
+    "name": "Kamaria",
+    "scientificName": "Artemisia vulgaris L.",
+    "image": "kamaria.jpg",
+    "family": "Asteraceae (Compositae)",
+    "habitat": "Open areas, gardens, roadsides, and disturbed ground in temperate to tropical uplands",
+    "origin": "Europe, North Africa, and Asia; widely cultivated or naturalized in the Philippines"
+  },
+  {
+    "id": "madre-cacao",
+    "name": "Madre Cacao",
+    "scientificName": "Gliricidia sepium (Jacq.) Kunth ex Walp.",
+    "image": "madre-cacao.jpg",
+    "family": "Fabaceae",
+    "habitat": "Tropical lowlands, farms, hedgerows, roadsides, and agroforestry systems",
+    "origin": "Tropical America; widely planted and naturalized in the Philippines"
+  }
+]
