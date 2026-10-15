@@ -17,26 +17,26 @@ npm run lint
 npm run format
 ```
 
-The production website is generated in `dist/`. Deploy this directory to a static host. Fonts, photos, and screenshots are served locally. The Android APK is hosted as a GitHub release asset in the app repository.
+The production website is generated in `dist/`. Deploy this directory to a static host. Fonts, photos, and screenshots are served locally. The Android APK is hosted as a GitHub release asset in this landing-page repository.
 
 Vercel deploys on pushes to `main`. The legacy `/downloads/hanap-medisina.apk` URL redirects to the release asset through `vercel.json`.
 
 ## Android download
 
-Both Android download buttons use the app repository's latest published release asset:
+Both Android download buttons use this landing-page repository's latest published release asset:
 
-[https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk](https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk)
+[https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk](https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk)
 
-The currently published October 15, 2026 APK was built from app commit `756593e7414621fb0bd5b9d1e2da0828b71a9222` and copied from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search on Home, and credited leaf photographs. Library search matches plant names, local names, and scientific names only.
+The currently published October 15, 2026 APK is `hanap-medisina-release-2026-10-15_18-48-11.apk`, built and tested from the local app working tree. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the updated Litlit, Tawa-tawa, and Tuba-tuba photos, translucent blurred favorite buttons, the Welcome greeting, working comparison search, the Library clear-search button, and the latest profile and history UI fixes. Library search matches plant names, local names, and scientific names only.
 
-- Size: 179,807,089 bytes (about 180 MB / 171.5 MiB).
-- SHA-256: `eb73def2392b1cdc8590a1a9a52325d0e29b2dbf44c7b3fbc4fbe33ac7ba33a8`.
+- Size: 135,913,416 bytes (about 136 MB / 129.6 MiB).
+- SHA-256: `fd480ff0ab7d30990e4fffe1897d2f4c320b3c9e834d3c2c991032a0315207a0`.
 - Both Android buttons download the same release.
 - The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 
 To serve the APK from another location, copy `.env.example` to `.env.local`, set `VITE_ANDROID_APK_URL` to the public HTTPS download URL, and rebuild. Vite's `BASE_URL` is used for bundled site assets when deploying under a subpath. If changing hosts, also update the legacy redirect in `vercel.json`.
 
-To release an updated app, publish a new release in `albuerocedrick/hanap-medisina-offline` with an asset named `hanap-medisina.apk`, mark it as the latest release, and update the displayed size/support details if necessary. The existing download URL will resolve to the new release. Building this site does not build or modify the mobile app.
+To release an updated app, publish a new release in `Buttercookiez/HanapMedsesinav2` with an asset named `hanap-medisina.apk`, mark it as the latest release, and update the displayed size/support details if necessary. The existing download URL will resolve to the new release. Building this site does not build or modify the mobile app.
 
 ## Content and assets
 

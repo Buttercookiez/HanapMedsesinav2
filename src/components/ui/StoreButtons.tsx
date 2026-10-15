@@ -7,15 +7,15 @@ export function StoreButtons({ compact = false }: { compact?: boolean }) {
         className="store-button android-button"
         href={
           import.meta.env.VITE_ANDROID_APK_URL ||
-          'https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk'
+          'https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk'
         }
         download="Hanap-Medisina.apk"
-        title="Android APK · 180 MB · Android 7.0+"
+        title="Android APK · 136 MB · Android 7.0+"
       >
         <Download size={19} />
         <span>
           <strong>Download for Android</strong>
-          {!compact && <small>APK · 180 MB</small>}
+          {!compact && <small>APK · 136 MB</small>}
         </span>
       </a>
       <button className="store-button ios-button" disabled aria-label="iOS app coming soon">

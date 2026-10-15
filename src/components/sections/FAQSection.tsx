@@ -7,7 +7,7 @@ const faqs = [
   ],
   [
     'How do I install it?',
-    'Download the 180 MB APK, open it, and follow Android’s prompts. If asked, allow installation from your browser or file manager. Requires Android 7.0+. This universal APK supports Android phones and emulators.',
+    'Download the 136 MB APK, open it, and follow Android’s prompts. If asked, allow installation from your browser or file manager. Requires Android 7.0+. This universal APK supports Android phones and emulators.',
   ],
   [
     'Which plants are supported?',

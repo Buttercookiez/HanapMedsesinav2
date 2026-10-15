@@ -3,7 +3,7 @@
   "redirects": [
     {
       "source": "/downloads/hanap-medisina.apk",
-      "destination": "https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk",
+      "destination": "https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk",
       "permanent": false
     }
   ]
