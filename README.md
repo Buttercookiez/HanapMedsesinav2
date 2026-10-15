@@ -27,10 +27,10 @@ Both Android download buttons use the app repository's latest published release 
 
 [https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk](https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk)
 
-The currently published October 15, 2026 APK was built from app commit `47dda97639794e4162d9316cccd98e10b4651f8b` and copied from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search, and credited leaf photographs.
+The currently published October 15, 2026 APK was built from app commit `756593e7414621fb0bd5b9d1e2da0828b71a9222` and copied from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search on Home, and credited leaf photographs. Library search matches plant names, local names, and scientific names only.
 
-- Size: 179,806,445 bytes (about 180 MB / 171.5 MiB).
-- SHA-256: `508378356ec06617ba8827997c9db19e6fa292a8eca9faa19335454da064f39b`.
+- Size: 179,807,089 bytes (about 180 MB / 171.5 MiB).
+- SHA-256: `eb73def2392b1cdc8590a1a9a52325d0e29b2dbf44c7b3fbc4fbe33ac7ba33a8`.
 - Both Android buttons download the same release.
 - The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 
