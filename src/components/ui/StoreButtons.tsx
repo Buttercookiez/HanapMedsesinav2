@@ -7,7 +7,7 @@ export function StoreButtons({ compact = false }: { compact?: boolean }) {
         className="store-button android-button"
         href={
           import.meta.env.VITE_ANDROID_APK_URL ||
-          `${import.meta.env.BASE_URL}downloads/hanap-medisina.apk`
+          'https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk'
         }
         download="Hanap-Medisina.apk"
         title="Android APK · 180 MB · Android 7.0+"

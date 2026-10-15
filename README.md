@@ -4,13 +4,9 @@ A responsive React + TypeScript landing page for the Hanap Medisina Offline Andr
 
 ## Development
 
-The Android APK is stored with Git LFS. Install Git LFS before cloning, then fetch the actual APK before building:
-
 ```sh
-git lfs install
 git clone https://github.com/Buttercookiez/HanapMedsesinav2.git
 cd HanapMedsesinav2
-git lfs pull
 ```
 
 ```sh
@@ -21,22 +17,26 @@ npm run lint
 npm run format
 ```
 
-The production website is generated in `dist/`. Deploy this directory to a static host. All fonts, photos, screenshots, and the APK are served locally; the page does not depend on third-party image or font services.
+The production website is generated in `dist/`. Deploy this directory to a static host. Fonts, photos, and screenshots are served locally. The Android APK is hosted as a GitHub release asset in the app repository.
 
-If a deployment service checks out the repository without Git LFS, enable LFS checkout or run `git lfs pull` before the build so the download contains the APK rather than an LFS pointer.
+Vercel deploys on pushes to `main`. The legacy `/downloads/hanap-medisina.apk` URL redirects to the release asset through `vercel.json`.
 
 ## Android download
 
-`public/downloads/hanap-medisina.apk` contains the October 15, 2026 release from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. This universal APK supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search, and credited leaf photographs.
+Both Android download buttons use the app repository's latest published release asset:
+
+[https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk](https://github.com/albuerocedrick/hanap-medisina-offline/releases/latest/download/hanap-medisina.apk)
+
+The currently published October 15, 2026 APK was built from app commit `47dda97639794e4162d9316cccd98e10b4651f8b` and copied from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search, and credited leaf photographs.
 
 - Size: 179,806,445 bytes (about 180 MB / 171.5 MiB).
 - SHA-256: `508378356ec06617ba8827997c9db19e6fa292a8eca9faa19335454da064f39b`.
 - Both Android buttons download the same release.
-- The APK is included in production output. Choose hosting that supports this file size.
+- The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 
-To serve the APK from another location, copy `.env.example` to `.env.local`, set `VITE_ANDROID_APK_URL` to the public HTTPS download URL, and rebuild. Vite's `BASE_URL` is used for bundled assets when deploying under a subpath.
+To serve the APK from another location, copy `.env.example` to `.env.local`, set `VITE_ANDROID_APK_URL` to the public HTTPS download URL, and rebuild. Vite's `BASE_URL` is used for bundled site assets when deploying under a subpath. If changing hosts, also update the legacy redirect in `vercel.json`.
 
-To release an updated app, replace the file at `public/downloads/hanap-medisina.apk`, update the displayed size/support details if necessary, and rebuild. Building this site does not build or modify the mobile app.
+To release an updated app, publish a new release in `albuerocedrick/hanap-medisina-offline` with an asset named `hanap-medisina.apk`, mark it as the latest release, and update the displayed size/support details if necessary. The existing download URL will resolve to the new release. Building this site does not build or modify the mobile app.
 
 ## Content and assets
 
