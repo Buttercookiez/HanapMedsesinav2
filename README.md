@@ -27,10 +27,10 @@ Both Android download buttons use this landing-page repository's latest publishe
 
 [https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk](https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk)
 
-The currently published October 15, 2026 APK is `hanap-medisina-release-2026-10-15_18-48-11.apk`, built and tested from the local app working tree. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the updated Litlit, Tawa-tawa, and Tuba-tuba photos, translucent blurred favorite buttons, the Welcome greeting, working comparison search, the Library clear-search button, and the latest profile and history UI fixes. Library search matches plant names, local names, and scientific names only.
+The currently published October 15, 2026 APK is `hanap-medisina-release-2026-10-15_20-22-52.apk`, built and tested from the local app working tree. The Library lists plants alphabetically by displayed name in English and Tagalog, in both list and grid views, including favorites, filtered lists, and search results. It also includes the latest photo, comparison, profile, history, and translucent favorite-button fixes. It supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. Library search matches plant names, local names, and scientific names only.
 
-- Size: 135,913,416 bytes (about 136 MB / 129.6 MiB).
-- SHA-256: `fd480ff0ab7d30990e4fffe1897d2f4c320b3c9e834d3c2c991032a0315207a0`.
+- Size: 135,913,732 bytes (about 136 MB / 129.6 MiB).
+- SHA-256: `104edfe0487112fb4cf0ee1e25b5b04a6f7f8016f5ef2cf74d1787dde86cfa76`.
 - Both Android buttons download the same release.
 - The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 
