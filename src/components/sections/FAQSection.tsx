@@ -7,11 +7,11 @@ const faqs = [
   ],
   [
     'How do I install it?',
-    'Download the 104 MB APK, open it, and follow Android’s prompts. If asked, allow installation from your browser or file manager. Requires Android 7.0+ on an ARM64 phone.',
+    'Download the 180 MB APK, open it, and follow Android’s prompts. If asked, allow installation from your browser or file manager. Requires Android 7.0+. This universal APK supports Android phones and emulators.',
   ],
   [
     'Which plants are supported?',
-    'The library has 29 Philippine medicinal plants. Scanning recognizes species in the bundled model. Profiles are available in English and Tagalog.',
+    'The library has 30 Philippine medicinal plants. Scanning recognizes species in the bundled model. Profiles are available in English and Tagalog.',
   ],
   [
     'Do I need to create an account?',

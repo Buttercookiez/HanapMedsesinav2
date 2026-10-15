@@ -27,10 +27,10 @@ If a deployment service checks out the repository without Git LFS, enable LFS ch
 
 ## Android download
 
-`public/downloads/hanap-medisina.apk` is copied from the explicitly named phone release at `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-phone.apk`. It targets ARM64 phones running Android 7.0+. Do not substitute the x86_64 emulator APK.
+`public/downloads/hanap-medisina.apk` contains the October 15, 2026 release from `C:/HanapMedicina/hanap-medisina-offline/release-builds/hanap-medisina-latest.apk`. This universal APK supports Android 7.0+ phones and emulators, with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. It includes the 30-plant library, Tagalog plant information, symptom search, and credited leaf photographs.
 
-- Size: 109,413,908 bytes (about 104 MiB).
-- SHA-256: `747b10a4f56e497817aa8da490fc1504e7b29cd9041db4c3bc8ea8a4808d4912`.
+- Size: 179,806,445 bytes (about 180 MB / 171.5 MiB).
+- SHA-256: `508378356ec06617ba8827997c9db19e6fa292a8eca9faa19335454da064f39b`.
 - Both Android buttons download the same release.
 - The APK is included in production output. Choose hosting that supports this file size.
 

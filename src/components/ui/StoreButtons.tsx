@@ -10,12 +10,12 @@ export function StoreButtons({ compact = false }: { compact?: boolean }) {
           `${import.meta.env.BASE_URL}downloads/hanap-medisina.apk`
         }
         download="Hanap-Medisina.apk"
-        title="Android APK · 104 MB · Android 7.0+"
+        title="Android APK · 180 MB · Android 7.0+"
       >
         <Download size={19} />
         <span>
           <strong>Download for Android</strong>
-          {!compact && <small>APK · 104 MB</small>}
+          {!compact && <small>APK · 180 MB</small>}
         </span>
       </a>
       <button className="store-button ios-button" disabled aria-label="iOS app coming soon">
