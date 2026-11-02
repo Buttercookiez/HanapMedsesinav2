@@ -26,7 +26,11 @@ export function DownloadSection() {
           </div>
           <div className="download-actions" data-reveal>
             <StoreButtons />
-            <p className="download-notes">Android 7.0+ · Universal APK · 136 MB</p>
+            <p className="download-notes">
+              Android 7.0+ · Universal APK · 136 MB
+              <br />
+              <time dateTime="2026-11-02">Updated November 2, 2026</time>
+            </p>
           </div>
         </div>
       </div>
