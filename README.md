@@ -27,15 +27,15 @@ Both Android download buttons use this landing-page repository's latest publishe
 
 [https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk](https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk)
 
-The currently published November 2, 2026 APK is `hanap-medisina-release-2026-11-02_10-38-21.apk`, built from app commit [`237cc0a`](https://github.com/albuerocedrick/hanap-medisina-offline/commit/237cc0a7375413ea04f883bd3334a0d6a72df57c).
+The November 14, 2026 APK is [`hanap-medisina.apk`](https://github.com/Buttercookiez/HanapMedsesinav2/releases/tag/android-2026-11-14), built from app commit [`d22d866`](https://github.com/albuerocedrick/hanap-medisina-offline/commit/d22d866d04fc108868eb52c7c35930a625a2bb3e).
 
-The Home page now shows Common Illnesses with 25 named illness categories. Wellness benefits, supplements, symptom-only entries, and injuries are excluded from this browse list while original plant information remains searchable. Selecting an illness opens matching plants without stale search or favorites filters. The scanner now explains framing, lighting, and focusing before capture, keeps Start scanning visible with larger text, waits for camera initialization, and offers Settings recovery for denied camera access. English and Tagalog are supported.
+The Scan screen opens a compact guide with looping, swipeable animations for framing leaves, finding even light, and focusing before capture. The “Don’t show this again” choice is saved on the device. The **Photo tips** button reopens the guide and lets you change that choice. The guide is available in English and Tagalog.
 
 The release also includes alphabetical Library listings, updated plant photos, working comparison search, profile and history improvements, and translucent favorite buttons. It supports Android 7.0+ phones and emulators with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. Library search matches plant names, local names, and scientific names only.
 
-- Validation: 199 automated tests passed, TypeScript checks passed, and the installed LDPlayer APK matches this release checksum.
-- Size: 135,918,508 bytes (about 136 MB / 129.6 MiB).
-- SHA-256: `d6f840d2b864f869a9ab801527a78ddfae7df335f00137b160b54576910dc8ca`.
+- Validation: 202 automated tests and TypeScript checks passed. The APK signature matches the previous release, and the APK installed over the previous version on the Android emulator.
+- Size: 136,491,664 bytes (about 136 MB / 130.2 MiB).
+- SHA-256: `79eed767154566748faca64e6e24c3d9978d611ab20c7559851991b7a23d4000`.
 - Both Android buttons download the same release.
 - The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 

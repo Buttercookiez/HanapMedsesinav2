@@ -10,7 +10,7 @@ export function StoreButtons({ compact = false }: { compact?: boolean }) {
           'https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk'
         }
         download="Hanap-Medisina.apk"
-        title="Android APK · 136 MB · Android 7.0+"
+        title="Android APK with the animated Scan guide · 136 MB · Android 7.0+"
       >
         <Download size={19} />
         <span>

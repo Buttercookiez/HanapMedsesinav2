@@ -29,7 +29,9 @@ export function DownloadSection() {
             <p className="download-notes">
               Android 7.0+ · Universal APK · 136 MB
               <br />
-              <time dateTime="2026-11-02">Updated November 2, 2026</time>
+              <time dateTime="2026-11-14">Updated November 14, 2026</time>
+              <br />
+              Includes the animated Scan guide
             </p>
           </div>
         </div>
