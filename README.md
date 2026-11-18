@@ -27,15 +27,15 @@ Both Android download buttons use this landing-page repository's latest publishe
 
 [https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk](https://github.com/Buttercookiez/HanapMedsesinav2/releases/latest/download/hanap-medisina.apk)
 
-The November 14, 2026 APK is [`hanap-medisina.apk`](https://github.com/Buttercookiez/HanapMedsesinav2/releases/tag/android-2026-11-14), built from app commit [`d22d866`](https://github.com/albuerocedrick/hanap-medisina-offline/commit/d22d866d04fc108868eb52c7c35930a625a2bb3e).
+The November 18, 2026 APK is [`hanap-medisina.apk`](https://github.com/Buttercookiez/HanapMedsesinav2/releases/tag/android-2026-11-18), built from app commit [`eafb261`](https://github.com/albuerocedrick/hanap-medisina-offline/commit/eafb2610695b07b527468e0a9435aec741e09268).
 
-The Scan screen opens a compact guide with looping, swipeable animations for framing leaves, finding even light, and focusing before capture. The “Don’t show this again” choice is saved on the device. The **Photo tips** button reopens the guide and lets you change that choice. The guide is available in English and Tagalog.
+The Scan screen opens a compact guide with looping, swipeable animations for framing leaves, small plants, finding even light, and focusing before capture. The small-plant example shows how to include a short stem and several leaves from the same plant in one clear photo. The “Don’t show this again” choice is saved on the device. The **Photo tips** button reopens the guide and lets you change that choice. The guide is available in English and Tagalog.
 
 The release also includes alphabetical Library listings, updated plant photos, working comparison search, profile and history improvements, and translucent favorite buttons. It supports Android 7.0+ phones and emulators with armeabi-v7a, arm64-v8a, x86, and x86_64 binaries. Library search matches plant names, local names, and scientific names only.
 
 - Validation: 202 automated tests and TypeScript checks passed. The APK signature matches the previous release, and the APK installed over the previous version on the Android emulator.
-- Size: 136,491,664 bytes (about 136 MB / 130.2 MiB).
-- SHA-256: `79eed767154566748faca64e6e24c3d9978d611ab20c7559851991b7a23d4000`.
+- Size: 135,928,000 bytes (about 136 MB / 129.6 MiB).
+- SHA-256: `4bff59ef431183d9192b00f69e9ef5f7e260505ec7b71b4e338062c8e90588ff`.
 - Both Android buttons download the same release.
 - The APK is a release asset, so deploying the landing page does not require Git LFS or bundling the installer into the website.
 
