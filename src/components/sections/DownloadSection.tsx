@@ -29,9 +29,9 @@ export function DownloadSection() {
             <p className="download-notes">
               Android 7.0+ · Universal APK · 136 MB
               <br />
-              <time dateTime="2026-11-18">Updated November 18, 2026</time>
+              <time dateTime="2026-11-22">Updated November 22, 2026</time>
               <br />
-              Includes small-plant photo tips
+              Clearer plant examples and a cleaner Scan screen
             </p>
           </div>
         </div>
